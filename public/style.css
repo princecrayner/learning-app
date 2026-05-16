@@ -183,7 +183,7 @@ body{
 /* LEVELS */
 .levels-section{
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 
@@ -387,6 +387,8 @@ body{
         left: -220px;
     }
 }
+
+
 
 
 /* FOOTER */
