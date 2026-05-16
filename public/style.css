@@ -138,6 +138,9 @@ body{
     cursor: pointer;
     padding: 0;
     transition: 0.3s ease;
+    top: 13px;
+    right: 60px;
+    position: fixed;
 }
 
 .profile-btn img{
@@ -180,6 +183,7 @@ body{
 /* LEVELS */
 .levels-section{
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 
@@ -293,16 +297,14 @@ body{
     width: 92%;
     height: 160px;
 
-    bottom: 70px;
-    left: 4%;
-    position: fixed;
+    margin: 30px auto 100px auto;
+
+    position: relative;
 
     overflow: hidden;
 
     display: flex;
     align-items: center;
-
-    z-index: -1;
 
     mask-image: linear-gradient(
         to right,
