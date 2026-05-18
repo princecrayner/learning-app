@@ -211,6 +211,10 @@ body{
     width: 90%;
 }
 
+.bart2 {
+  color: white;
+}
+
 
 /* SUBHEAD */
 .subhead{
@@ -271,12 +275,12 @@ body{
 /* COPYRIGHT */
 .copyrighttext{
     color: white;
-    position: absolute;
+    position: fixed;
     bottom: 20px;
-    width: 100%;
     text-align: center;
     font-size: 14px;
     font-style: italic;
+    margin-left: 85px;
 }
 
 
