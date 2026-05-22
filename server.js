@@ -57,6 +57,11 @@ app.get("/", (req, res) => {
     res.render("index");
 });
 
+// LOGOUT PAGE
+app.get("/logout", (req, res) => {
+    res.render("logout");
+});
+
 // LEVEL PAGES
 app.get("/levels/level100", (req, res) => {
     res.render("levels/level100");
@@ -244,5 +249,17 @@ socket.on("groupMessage", async (data) => {
     io.emit("receiveGroupMessage", data);
 
    });
+
+});
+
+
+// CONFIRM LOGOUT
+app.get("/confirmlogout", (req, res) => {
+
+    req.session.destroy(() => {
+
+        res.render("goodbye");
+
+    });
 
 });

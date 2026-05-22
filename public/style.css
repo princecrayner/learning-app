@@ -246,6 +246,17 @@ body{
     text-align: center;
 }
 
+.sidebar p{
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 85px;
+}
+
+
 .sidebar a:hover{
     background: #575757;
 }
@@ -271,17 +282,6 @@ body{
     display: block;
 }
 
-
-/* COPYRIGHT */
-.copyrighttext{
-    color: white;
-    position: fixed;
-    bottom: 20px;
-    text-align: center;
-    font-size: 14px;
-    font-style: italic;
-    margin-left: 85px;
-}
 
 
 /* SEARCH */
