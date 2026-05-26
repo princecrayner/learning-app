@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Theory PDFs</title>
+</head>
+<body>
+
+<h1>Theory PDFs</h1>
+
+<% pdfs.forEach(pdf => { %>
+
+    <div>
+
+        <h3><%= pdf.title %></h3>
+
+        <p><%= pdf.subject %></p>
+
+        <p><%= pdf.level %></p>
+
+        <p><%= pdf.semester %></p>
+
+        <p><%= pdf.category %></p>
+
+        <a href="<%= pdf.pdfUrl %>" target="_blank">
+            View PDF
+        </a>
+
+    </div>
+
+<% }) %>
+
+</body>
+</html>

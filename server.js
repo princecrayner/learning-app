@@ -1,3 +1,5 @@
+const pdfRoutes = require("./routes/pdfs");
+
 const multer = require("multer");
 const path = require("path");
 
@@ -59,6 +61,7 @@ app.use(session({
 }));
 app.use("/admin", adminRoutes);
 
+app.use("/", pdfRoutes);
 app.use("/", authRoutes);
 app.use("/", videoRoutes);
 app.use("/", chatRoutes);
